@@ -1,0 +1,149 @@
+'''
+In the context of linguistic harmony, we define a "harmonious string" as a string where every alphabet it contains appears both in uppercase and lowercase forms. For instance, a string like "pqQpP" is harmonious because it has both 'P' and 'p' as well as 'Q' and 'q'. Conversely, a string like "pqP" is not harmonious as it fails to meet this condition, with 'q' present while 'Q' is absent.
+
+Your are given a string S, your task is  to return the longest harmonious substring in S. 
+If there are multiple answers meeting this criterion, you should return the one that appears 
+earliest in the string. If there is no harmonious substring, you should return an empty string.
+
+Input Format:
+-------------------
+A string S
+
+Output Format:
+-------------------
+Prin the longest harmonious string.
+
+
+Sample Input:
+--------------
+QcvcCcq
+
+Sample Output:
+---------------
+cCc
+
+
+Sample Input:
+--------------
+pqrs
+
+Sample Output:
+--------------
+""
+
+Write your python code below.
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You are provided with a string composed of binary digits, and 
+your task is to write a method that calculates the count of set bits within it. 
+
+Constraint:
+-----------
+String length is <=150.
+
+
+Input Format:
+-------------
+A string, consists of 0's and 1's.
+
+Output Format:
+-------------------
+Print an integer result.
+
+
+Sample Input:
+--------------
+01001100001111101101010101111000
+
+Sample Output:
+---------------
+17
+
+
+Sample Input:
+--------------
+11110010111011011011011111100110
+
+Sample Output:
+--------------
+22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Factorial of N means, Product first N natural numbers.
+e.g., N= 1 * 2 * 3 * ... * N.
+
+You are given an integer N, Your task is to find out the number of 0's 
+at the end of the factorial value of N.
+
+for example : N =5 => Factorial of 5 is 120.
+0' s at the end of 120 are 1.
+
+Constraint : 1<= N <= 10000
+
+Input Format:
+-------------
+An integer N
+
+Output Format:
+--------------
+Print an integer, number of 0's at the end.
+
+
+Sample Input-1:
+---------------
+5
+
+Sample Output-1:
+----------------
+1
+
+
+Sample Input-2:
+---------------
+4
+
+Sample Output-2:
+----------------
+0
+
